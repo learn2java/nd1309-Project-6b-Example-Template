@@ -1,11 +1,11 @@
-pragma solidity ^0.4.24;
+pragma solidity >=0.4.24;
 
 /**
  * @title Roles
  * @dev Library for managing addresses assigned to a Role.
  */
 library Roles {
-  struct Role {
+  struct Role { 
     mapping (address => bool) bearer;
   }
 
